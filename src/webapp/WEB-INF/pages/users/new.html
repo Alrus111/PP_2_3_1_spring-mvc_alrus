@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>New user</title>
@@ -13,9 +13,9 @@
     <label for="age">Enter age: </label>
     <input type="text" th:field="*{age}" id="age"/>
     <br/>
-<!--    <label for="email">Enter email: </label>-->
-<!--    <input type="text" th:field="*{email}" id="email"/>-->
-<!--    <br/>-->
+    <label for="email">Enter email: </label>
+    <input type="text" th:field="*{email}" id="email"/>
+    <br/>
     <input type="submit" value="Create!"/>
 </form>
 
